@@ -20,7 +20,7 @@ ROOT_FOLDER
     |    |--support
 
     |          |--jasmine.json
-    
+
     |--README.md
 
 When we initialize jasmine in our project, jasmine spins up a `spec` directory with nothing in it, and a `support` directory with a `jasmine.json` file. The `spec` directory is where you should put all of your test files. The `support` directory is where jasmine
@@ -205,7 +205,7 @@ Excellent, we're failing our first test! I bet that's first time anyone ever che
 __Let's dissect the output:__
 
 * __Failures__ - returns the `describe` title and errors relating to why the test is failing
-* __Stack__ - also returns an error describing why are test is failing
+* __Stack__ - also returns an error describing why our test is failing
 * __1 spec, 1 failure__ - this line tells us the total number of tests being run
 and how many have failed, passed, or are pending. In this case, we have only one
 test and we are failing it.
